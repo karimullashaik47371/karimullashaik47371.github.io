@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresher Java Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm [Your Name], a passionate Java developer.</p>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skill-images">
+            <img src="images/javalogo.png" alt="Java">
+            <img src="images/springlogo.png" alt="Spring Framework">
+            <img src="images/jslogo.png" alt="JavaScript">
+            <img src="images/html5logo.png" alt="HTML5">
+            <img src="images/csslogo.png" alt="CSS3">
+            <img src="images/oracledatabaselogo.png" alt="Oracle DB">
+            <img src="images/mysqllogo.png" alt="MySQL">
+            <img src="images/tomcatlogo.png" alt="Apache Tomcat">
+            <img src="images/mavenlogo.png" alt="Maven">
+            <img src="images/githublogo.png" alt="GitHub">
+            <img src="images/junitlogo.png" alt="JUnit">
+            <img src="images/eclipselogo.png" alt="Eclipse">
+            <img src="images/vscodelogo.png" alt="VS Code">
+            <img src="images/windowslogo.png" alt="Windows">
+            <!-- Add more skill images here -->
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project One</h3>
+            <p>Description of the first project.</p>
+        </div>
+        <div class="project">
+            <h3>Project Two</h3>
+            <p>Description of the second project.</p>
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <h2>Resume</h2>
+        <p>You can view or download my resume <a href="resume/KARIMULLA_FRESHER_RESUME.pdf" target="_blank">here</a>.
+        </p>
+        <!-- Embed the resume directly -->
+        <iframe src="resume/KARIMULLA_FRESHER_RESUME.pdf" width="100%" height="600px"></iframe>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/xyyrrzno" method="post" enctype="multipart/form-data">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
